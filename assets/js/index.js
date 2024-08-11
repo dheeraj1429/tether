@@ -5,6 +5,12 @@ const body = document.querySelector(".body");
 const popupContainerBox = document.querySelector(".pop-up-card");
 const overLay = document.querySelector(".over-lay");
 const input = document.getElementById("cryptoToken");
+const howItWorks = document.querySelector(".learn-how-to-works");
+
+howItWorks.addEventListener("click", () => {
+  const elm = document.querySelector(".ti");
+  elm.classList.toggle("show");
+});
 
 createAccountButton.addEventListener("click", () => {
   popupContainer.classList.add("open");

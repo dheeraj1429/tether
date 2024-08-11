@@ -994,3 +994,28 @@ a:hover {
 li {
   list-style-type: none;
 }
+
+.sb-button {
+  background-color: #009393;
+  color: #fff;
+  margin: auto;
+  padding: 12.5px 70px;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .pop-up-card {
+    width: 90%;
+  }
+}
+
+.ti {
+  display: none;
+}
+
+.show {
+  display: block;
+}
